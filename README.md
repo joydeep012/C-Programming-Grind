@@ -2,7 +2,6 @@
 #include<limits.h>
 int main(){
     int n;
-    int l=INT_MIN,s=INT_MIN;
     printf("enter the size of the array : ");
     scanf("%d",&n);
     int a[n];
@@ -15,6 +14,7 @@ int main(){
             printf("%d enter the no for the array :",i+1);
             scanf("%d",&a[i]);
             }
+int l=INT_MIN,s=INT_MIN;
         for(int i=0;i<n;i++){
             if(l<a[i]){
                 s=l;
