@@ -1,5 +1,5 @@
 bool isValid(char * s){
-int length = strlen(s);
+    int length = strlen(s);
     char stack[length]; 
     int top = -1;
 
@@ -20,4 +20,5 @@ int length = strlen(s);
             }
         }
     }
-    return top == -1;}
+    return top == -1;
+}
