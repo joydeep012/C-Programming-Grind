@@ -24,4 +24,5 @@ int main(){
     for(int i=0;i<n;i++){
         printf("elements no %d :  %d \n",i+1,*(ptr+i));
     }
-    return 0;}
+    return 0;
+}
